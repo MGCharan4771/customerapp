@@ -1,0 +1,28 @@
+###Get Data
+GET http://localhost:4004/odata/v4/customer/Customers
+
+###Post 
+POST http://localhost:4004/odata/v4/customer/Customers
+Content-Type: application/json
+
+{
+    "name"        : "def",
+    "email"       : "def@gmail.com",
+    "phone"       : 1235654844,
+    "address"     : "Delhi",
+    "totalOrders" : 5,
+    "Status"      : 1,
+    "orders" : [{
+        "orderDate" : "2024-10-23",
+        "orderStatus" : "Delivered",
+        "quantity"    : 5,
+        "netValue"    : 1500.00,
+        "totalAmount" : 1600.00
+    },{
+        "orderDate" : "2024-10-23",
+        "orderStatus" : "Not Delivered",
+        "quantity"    : 2,
+        "netValue"    : 500.00,
+        "totalAmount" : 800.00
+    }]
+}

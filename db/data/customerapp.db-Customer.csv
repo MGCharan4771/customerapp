@@ -1,0 +1,4 @@
+ID,name,email,phone,address,totalOrders,Status,createdAt,createdBy,modifiedAt,modifiedBy
+1,Ramesh,ramesh@gmail.com,9865743215,Delhi,5,1,2024-10-23,Admin,2024-10-23,Admin
+2,Suresh,suresh@gmail.com,8841114882,Hyderabad,10,0,2024-10-23,Admin,2024-10-23,Admin
+3,Harish,harish@gmail.com,8106352625,Mumbai,8,1,2024-10-23,Admin,2024-10-23,Admin

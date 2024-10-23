@@ -1,0 +1,5 @@
+ID,orderDate,orderStatus,quantity,netValue,totalAmount,customer_ID,createdAt,createdBy,modifiedAt,modifiedBy
+101,2023-10-25,Delivered,2,1500.00,1600.00,1,2024-10-23,Admin,2024-10-23,Admin
+102,2023-10-24,Shipping,10,1200.00,1250.00,1,2024-10-23,Admin,2024-10-23,Admin
+103,2024-10-24,Processing,20,2500.00,3000.00,2,2024-10-23,Admin,2024-10-23,Admin
+104,2024-01-24,Shipped,10,1500.00,1600.00,3,2024-10-23,Admin,2024-10-23,Admin
