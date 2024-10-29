@@ -6,11 +6,11 @@ POST http://localhost:4004/odata/v4/customer/Customers
 Content-Type: application/json
 
 {
-    "name"        : "def",
-    "email"       : "def@gmail.com",
-    "phone"       : 1235654844,
+    "name"        : "Revanth",
+    "email"       : "revanth@gmail.com",
+    "phone"       : 9876543210,
     "address"     : "Delhi",
-    "totalOrders" : 5,
+    "totalOrders" : 50,
     "Status"      : 1,
     "orders" : [{
         "orderDate" : "2024-10-23",
